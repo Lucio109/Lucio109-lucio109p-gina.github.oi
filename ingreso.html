@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Tilt to make room for menu</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="phone-frame">
+  <div class="phone-screen">
+<div class="formcontacto">
+            <form id="form" class="form" align="center" action="https://formspree.io/f/xzbyyrvn" method="POST">
+
+        <label for="nombre">Nombre:</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+
+       
+        <label for="apellido">Apellido:</label>
+        <input type="text" name="apellido" id="apellido">
+        <br>
+
+        <label for="numero">Número dni:</label>
+        <input type="number" name="numero" id="numero">
+        <br>
+
+        <label for="nombre">dirección:</label>
+        <input type="text" name="nombre" id="nombre">
+        <br>
+
+            </form>
+         
+</div>
+</div>
+    <div class="imageContainer">
+      
+
+  <div class="overlay"></div>
+    </div>
+    <!-- <div class="button-menu button-menu1"></div> -->
+    <svg class="button-menu button-menu1" height="24" width="24" onclick="document.querySelector('.phone-screen').classList.toggle('active')">
+      <circle class="bg" r="12" cx="12" cy="12" />
+      <path class="line line1" d="M 6,8 H 18" />
+      <path class="line line2" d="M 6,12 H 18" />
+      <path class="line line3" d="M 6,16 H 18" />
+    </svg>
+    <div class="menu" onclick="document.querySelector('.phone-screen').classList.remove('active')">
+        <div class="menu" onclick="document.querySelector('.phone-screen').classList.remove('active')">
+      <div class="option">
+        <svg class="food" xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 100 100" data-name="Camada 1">
+          <title>Sushi</title>
+          
+        <div class="japanese">
+<div class="">
+<center>
+<h5>
+  <a href="ingreso.html">Teléfono</a>
+ </h5>
+</center>
+  </button>
+</div>
+</div>
+
+      </div>
+      <div class="option">
+        <svg class="food" xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 100 100" data-name="Camada 1">
+          <title>Sushi_2</title>
+          
+        <div class="japanese"></div>
+     <center>
+       <h5>
+  <a href="libro.html">libreta</a>
+ </h5>
+     </center>
+      </div>
+      <div class="option">
+        <svg class="food" xmlns="http://www.w3.org/2000/svg" height="100" width="100" viewBox="0 0 100 100" data-name="Camada 1">
+          <title>Tempura_1</title>
+         
+        <div class="japanese"></div>
+<center>
+      <h5>
+  <a href="ubi.html">ubicación</a>
+ </h5>
+</center>
+      </div>
+     
+        </svg>
+        
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
